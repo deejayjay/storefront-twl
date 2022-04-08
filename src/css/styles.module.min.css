@@ -1,3 +1,3 @@
-.pageTitle{margin:4rem 0 0;text-align:center;color:#1e293b}.pageTitle h1{font-size:clamp(3rem,10vw,10rem);font-weight:800;line-height:1}.pageTitle p{font-size:clamp(2rem,5vw,3rem);font-weight:600;color:#64748b}
+.productCard{margin:2rem auto 4rem}.productCard footer{margin:1rem 0}.productCard button{border:none;background-color:#3b82f6;color:#eff6ff;padding:.5rem 2rem;border-radius:3px;font-size:1.25rem}.productCard{display:flex;flex-direction:column;align-items:center;justify-content:space-between;margin:0}.price{font-size:1.75rem;font-weight:200;color:#64748b;margin:.25rem 0}.description{font-size:14px;color:#94a3b8}.name{font-size:2.75rem;font-weight:800;color:#1e293b}@media(min-width: 600px){.price{font-size:1.75rem;font-weight:200;color:#64748b;margin:.25rem 0}.description{font-size:14px;color:#94a3b8}.name{font-size:1.75rem;font-weight:800;color:#1e293b}}
 
 /*# sourceMappingURL=styles.module.min.css.map */

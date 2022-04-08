@@ -1,16 +1,17 @@
 .productCard {
   margin: 2rem auto 4rem;
-}
-.productCard footer {
-  margin: 1rem 0;
-}
-.productCard button {
-  border: none;
-  background-color: #3b82f6;
-  color: #eff6ff;
-  padding: 0.5rem 2rem;
-  border-radius: 3px;
-  font-size: 1.25rem;
+
+  footer {
+    margin: 1rem 0;
+  }
+  button {
+    border: none;
+    background-color: #3b82f6;
+    color: #eff6ff;
+    padding: 0.5rem 2rem;
+    border-radius: 3px;
+    font-size: 1.25rem;
+  }
 }
 
 .productCard {
@@ -58,5 +59,3 @@
     color: #1e293b;
   }
 }
-
-/*# sourceMappingURL=styles.module.css.map */
