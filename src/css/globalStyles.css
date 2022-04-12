@@ -410,12 +410,15 @@ body {
   max-width: 1200px;
 }
 
-@media only screen and (min-width: 1200px) {
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 600px) {
   .products-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 3rem 1.5rem;
-    justify-content: center;
+    justify-content: normal;
   }
 }
 
