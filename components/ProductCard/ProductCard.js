@@ -4,9 +4,9 @@ import Image from "next/image";
 
 import { productCard, price, name, description } from "./styles.module.scss";
 
-const myLoader = ({ src, width, quality }) => {
-  return `${src}?w=${width}&q=${quality || 75}`;
-};
+// const myLoader = ({ src, width, quality }) => {
+//   return `${src}?w=${width}&q=${quality || 75}`;
+// };
 
 function ProductCard({ children, product, ...props }) {
   const { productName, productPrice, productDescription, imageUrl, uid } = { ...product };
@@ -19,7 +19,7 @@ function ProductCard({ children, product, ...props }) {
       <p className={price}>${productPrice}</p>
       <p className={description}>{productDescription}</p>
       <footer>
-        <form action="#" method="POST">
+        <form action="/api/checkout" method="POST">
           <input type="hidden" name="uid" value={uid} />
           <button type="submit">Buy Now</button>
         </form>

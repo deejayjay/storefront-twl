@@ -9,13 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "12.1.4",
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "sass": "^1.49.10"
   },
   "devDependencies": {
+    "@stripe/stripe-js": "^1.27.0",
     "eslint": "8.12.0",
-    "eslint-config-next": "12.1.4"
+    "eslint-config-next": "12.1.4",
+    "next": "^12.1.5",
+    "stripe": "^8.216.0"
   }
 }
