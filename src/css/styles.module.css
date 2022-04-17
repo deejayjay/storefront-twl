@@ -1,6 +1,7 @@
 .productCard {
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.125);
-  border-radius: 0 0 4px 4px;
+  border-top: 3px solid #ecad0d;
+  border-radius: 0 0 5px 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
